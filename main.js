@@ -1,4 +1,3 @@
-
 function tocaSom ( seletorAudio ) {
     const elemento = document.querySelector (seletorElemento);
     
@@ -40,7 +39,8 @@ function tocaSom ( seletorAudio ) {
     
     
     }
-    tecla.onkeyup = fuction () {
+    tecla.onkeyup = fuction () 
+    {
         tecla.classList.remove('ativa');
     
     }
